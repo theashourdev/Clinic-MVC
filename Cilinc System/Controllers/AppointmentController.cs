@@ -1,6 +1,8 @@
 ﻿using AspNetCoreHero.ToastNotification.Abstractions;
+using Cilinc_System.Helpers;
 using Cilinc_System.Models;
 using Cilinc_System.Models.Enums;
+using Cilinc_System.Models.ViewModels;
 using Cilinc_System.Services.IServices;
 using ClinicApp.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -27,6 +29,57 @@ namespace Cilinc_System.Controllers
             _notyf = notyf;
         }
 
+        //public IActionResult Index(
+        //    string patientName = "",
+        //    int? doctorId = null,
+        //    AppointmentStatus? status = null,
+        //    DateTime? date = null,
+        //    int page = 1,
+        //    int pageSize = 10)
+        //{
+        //    var appointments = _appointmentService.GetAppointments();
+
+        //    // Filter
+        //    if (!string.IsNullOrEmpty(patientName))
+        //        appointments = appointments.Where(a => a.Patient!.Name!.Contains(patientName, StringComparison.OrdinalIgnoreCase));
+
+        //    if (doctorId.HasValue)
+        //        appointments = appointments.Where(a => a.Doctor!.DoctorID == doctorId.Value);
+
+        //    if (status.HasValue)
+        //        appointments = appointments.Where(a => a.Status == status.Value);
+
+        //    if (date.HasValue)
+        //        appointments = appointments.Where(a => a.Date.Date == date.Value.Date);
+
+        //    // Pagination
+        //    var totalItems = appointments.Count();
+        //    var totalPages = (int)Math.Ceiling(totalItems / (double)pageSize);
+
+        //    var pagedAppointments = appointments
+        //        .Skip((page - 1) * pageSize)
+        //        .Take(pageSize)
+        //        .ToList();
+
+        //    ViewBag.CurrentPage = page;
+        //    ViewBag.TotalPages = totalPages;
+        //    ViewBag.PatientFilter = patientName;
+        //    ViewBag.DoctorFilter = doctorId;
+        //    ViewBag.StatusFilter = status;
+        //    ViewBag.DateFilter = date?.ToString("yyyy-MM-dd");
+
+        //    var doctors = _doctorService.GetAll();
+        //    ViewBag.Doctors = doctors.Select(d => new SelectListItem
+        //    {
+        //        Value = d.DoctorID.ToString(),
+        //        Text = d.Name,
+        //        Selected = d.DoctorID.ToString() == doctorId.ToString()
+        //    }).ToList();
+
+        //    return View(pagedAppointments);
+        //}
+
+
         public IActionResult Index(
             string patientName = "",
             int? doctorId = null,
@@ -35,22 +88,29 @@ namespace Cilinc_System.Controllers
             int page = 1,
             int pageSize = 10)
         {
-            var appointments = _appointmentService.GetAppointments();
+            var appointments = _appointmentService.GetAppointments().ToList();
 
-            // Filter
             if (!string.IsNullOrEmpty(patientName))
-                appointments = appointments.Where(a => a.Patient!.Name!.Contains(patientName, StringComparison.OrdinalIgnoreCase));
+                appointments = appointments
+                    .Where(a => a.Patient!.Name!.Contains(patientName, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
 
             if (doctorId.HasValue)
-                appointments = appointments.Where(a => a.Doctor!.DoctorID == doctorId.Value);
+                appointments = appointments
+                    .Where(a => a.Doctor!.DoctorID == doctorId.Value)
+                    .ToList();
 
             if (status.HasValue)
-                appointments = appointments.Where(a => a.Status == status.Value);
+                appointments = appointments
+                    .Where(a => a.Status == status.Value)
+                    .ToList();
 
             if (date.HasValue)
-                appointments = appointments.Where(a => a.Date.Date == date.Value.Date);
+                appointments = appointments
+                    .Where(a => a.Date.Date == date.Value.Date)
+                    .ToList();
 
-            // Pagination
+            // 3. Pagination
             var totalItems = appointments.Count();
             var totalPages = (int)Math.Ceiling(totalItems / (double)pageSize);
 
@@ -59,6 +119,20 @@ namespace Cilinc_System.Controllers
                 .Take(pageSize)
                 .ToList();
 
+            var result = pagedAppointments.Select(a => new AppointmentIndexViewModel
+            {
+                EncryptedId = IdProtector.EncryptId(a.AppointmentID),
+                Date = a.Date,
+                StartTime = a.StartTime,
+                EndTime = a.EndTime,
+                DoctorName = a.Doctor!.Name,
+                PatientName = a.Patient!.Name!,
+                Status = a.Status
+            }).ToList();
+
+
+
+            // 5. ViewBag
             ViewBag.CurrentPage = page;
             ViewBag.TotalPages = totalPages;
             ViewBag.PatientFilter = patientName;
@@ -73,9 +147,14 @@ namespace Cilinc_System.Controllers
                 Text = d.Name,
                 Selected = d.DoctorID.ToString() == doctorId.ToString()
             }).ToList();
-
-            return View(pagedAppointments);
+            return View(result);
         }
+
+
+
+
+
+
 
         public IActionResult Create(int? doctorId)
         {
@@ -184,10 +263,12 @@ namespace Cilinc_System.Controllers
 
 
         // GET: Appointment/Details/5
-        public IActionResult Details(int id)
+        public IActionResult Details(string id)
         {
+            int appointmentId = IdProtector.DecryptId(id);
+
             var appointment = _appointmentService.GetAppointments()
-                .FirstOrDefault(a => a.AppointmentID == id);
+                .FirstOrDefault(a => a.AppointmentID == appointmentId);
 
             if (appointment == null)
             {
@@ -198,9 +279,11 @@ namespace Cilinc_System.Controllers
         }
 
         [HttpPost]
-        public IActionResult ChangeStatus(int id, AppointmentStatus status)
+        public IActionResult ChangeStatus(string id, AppointmentStatus status)
         {
-            var appointment = _appointmentService.GetById(id);
+            int appointmentId = IdProtector.DecryptId(id);
+
+            var appointment = _appointmentService.GetById(appointmentId);
             if (appointment == null)
                 return Json(new { success = false, message = "Appointment not found." });
 
@@ -211,20 +294,24 @@ namespace Cilinc_System.Controllers
         }
 
         [HttpPost]
-        public IActionResult Delete(int id)
+        public IActionResult Delete(string id)
         {
-            var appointment = _appointmentService.GetById(id);
+            int appointmentId = IdProtector.DecryptId(id);
+
+            var appointment = _appointmentService.GetById(appointmentId);
             if (appointment == null)
                 return Json(new { success = false, message = "Appointment not found." });
 
-            _appointmentService.Delete(id);
+            _appointmentService.Delete(appointmentId);
             return Json(new { success = true, message = "Appointment deleted successfully." });
         }
 
         // GET: Appointment/Edit/5
-        public IActionResult Edit(int id)
+        public IActionResult Edit(string id)
         {
-            var appointment = _appointmentService.GetById(id);
+            int appointmentId = IdProtector.DecryptId(id);
+
+            var appointment = _appointmentService.GetById(appointmentId);
             if (appointment == null)
                 return NotFound();
 

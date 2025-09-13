@@ -1,6 +1,7 @@
 ﻿@using Cilinc_System.Models
 @using Cilinc_System.Models.Enums
-@model IEnumerable<Appointment>
+@using Cilinc_System.Models.ViewModels
+@model IEnumerable<AppointmentIndexViewModel>
 
 @{
     ViewData["Title"] = "Appointments";
@@ -95,15 +96,15 @@
             <tbody id="appointmentsTable">
                 @foreach (var item in Model)
                 {
-                    <tr id="row-@item.AppointmentID">
-                        <td>@item.Patient?.Name</td>
-                        <td>@item.Doctor?.Name</td>
+                    <tr id="row-@item.EncryptedId">
+                        <td>@item.PatientName</td>
+                        <td>@item.DoctorName</td>
                         <td>@item.Date.ToString("yyyy-MM-dd")</td>
                         <td>@item.StartTime.ToString(@"hh\:mm")</td>
                         <td>@item.EndTime.ToString(@"hh\:mm")</td>
                         <td>
                             <select class="form-select form-select-sm"
-                                    onchange="changeStatus(@item.AppointmentID, this.value)">
+                                    onchange="changeStatus('@item.EncryptedId', this.value)">
                                 @foreach (var status in Enum.GetValues(typeof(AppointmentStatus)).Cast<AppointmentStatus>())
                                 {
                                     if (item.Status == status)
@@ -120,17 +121,18 @@
 
                         <td>
 
-                            <a asp-action="Details" asp-route-id="@item.AppointmentID" class="btn btn-outline-primary btn-sm">
+                            <a asp-action="Details" asp-route-id="@item.EncryptedId" class="btn btn-outline-primary btn-sm">
                                 Details
                              </a>
 
-                            <a asp-action="Edit" asp-route-id="@item.AppointmentID" class="btn btn-sm btn-outline-warning">
+                            <a asp-action="Edit" asp-route-id="@item.EncryptedId" class="btn btn-sm btn-outline-warning">
                                 Edit
                             </a>
 
-                            <button class="btn btn-sm btn-outline-danger" onclick="deleteAppointment(@item.AppointmentID)">
+                            <button class="btn btn-sm btn-outline-danger" onclick="deleteAppointment('@item.EncryptedId')">
                                 Delete
                             </button>
+
                         </td>
 
                     </tr>

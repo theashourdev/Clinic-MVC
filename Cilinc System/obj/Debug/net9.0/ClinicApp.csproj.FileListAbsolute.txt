@@ -699,3 +699,4 @@ D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\kitxt44
 D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\o0jjhyzspa-cm79lz9ti0.gz
 D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\wdcg9ucorr-w5t26togf2.gz
 D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\9op22eqad8-cl5rrypo7e.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.sourcelink.json
