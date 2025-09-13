@@ -1,0 +1,701 @@
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\appsettings.Development.json
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\appsettings.json
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.staticwebassets.runtime.json
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.staticwebassets.endpoints.json
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.exe
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.deps.json
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.runtimeconfig.json
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.pdb
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Azure.Core.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Azure.Identity.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Humanizer.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Mono.TextTemplating.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.ClientModel.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.CodeDom.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Composition.Convention.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Composition.Hosting.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Composition.Runtime.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Composition.TypedParts.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Drawing.Common.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Formats.Asn1.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Memory.Data.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Runtime.Caching.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Security.Permissions.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Text.Json.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Windows.Extensions.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+H:\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.csproj.AssemblyReference.cache
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\rpswa.dswa.cache.json
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.GeneratedMSBuildEditorConfig.editorconfig
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.AssemblyInfoInputs.cache
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.AssemblyInfo.cs
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.csproj.CoreCompileInputs.cache
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.MvcApplicationPartsAssemblyInfo.cache
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.RazorAssemblyInfo.cache
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.RazorAssemblyInfo.cs
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\rjimswa.dswa.cache.json
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\scopedcss\bundle\ClinicApp.styles.css
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\scopedcss\projectbundle\ClinicApp.bundle.scp.css
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\3wtjyo5y5u-b9sayid5wm.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\rm4rc4o2ov-xtxxf3hu2r.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\memjvzeyjg-bqjiyaj88i.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\6yasnohd92-c2jlpeoesf.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\8mq2gayu24-erw9l3u2r3.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\ng3yi6htrp-aexeepp0ev.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\ue31pw9m9i-d7shbmvgxk.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\qzs3a0x5gl-ausgxo2sd3.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\hway20x0gm-k8d9w2qqmf.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\jynz1kh4zr-cosvhxvwiu.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\1irnejgeta-ub07r2b239.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\b419txwcil-fvhpjtyr6v.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\3prgvlzze9-b7pk76d08c.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\cixxwd9v1u-fsbi9cje9m.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\i0edobs37g-rzd6atqjts.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\cxl6jyji7x-ee0r1s7dh0.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\nk9gasq2s7-dxx9fxp4il.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\7dksfmy941-jd9uben2k1.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\j2h9zr65hw-khv3u5hwcm.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\6kg46rso7p-r4e9w2rdcm.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\fpitm04ljn-lcd1t2u6c8.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\h3gjpe0sgf-c2oey78nd0.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\vqeo2bvkcd-tdbxkamptv.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\h52o42dtvx-j5mq2jizvt.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\bx288kgmtg-06098lyss8.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\fd8m4k7q6n-nvvlpmu67g.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\5yxhmgmt18-s35ty4nyc5.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\h86qwicfh5-pj5nd1wqec.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\sbllqv6dhh-46ein0sx1k.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\krtqylujxg-v0zj4ognzu.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\5oe80pouly-37tfw0ft22.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\up2tgbjsqd-hrwsygsryq.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\33zxt9b5k3-pk9g2wxc8p.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\g9qf2c9vyk-ft3s53vfgj.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\y24e3c16n2-6cfz1n2cew.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\i6x6u34779-6pdc2jztkx.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\52deur6xd5-493y06b0oq.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\es8m2yqpt8-iovd86k7lj.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\6uwbfds507-vr1egmr9el.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\2tm3vsjq5n-kbrnm935zg.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\slk5czgkke-jj8uyg4cgr.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\vvu88j9wa8-y7v9cxd14o.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\98nq1yybia-notf2xhcfb.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\x85x6tqcao-h1s4sie4z3.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\dku7dxkcjw-63fj8s7r0e.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\7lyzawu8ju-0j3bgjxly4.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\s7x6si27ui-47otxtyo56.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\i8ydt54e91-4v8eqarkd7.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\xzx7zusowr-356vix0kms.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\mcpc5u4w55-83jwlth58m.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\1d1za0hto4-mrlpezrjn3.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\arnaeovycj-lzl9nlhx6b.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\ieseu9pikz-ag7o75518u.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\iyixs7or94-x0q3zqp4vz.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\9ufnzx5git-0i3buxo5is.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\8gozgvsbko-o1o13a6vjx.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\h2o5scbtkh-ttgo8qnofa.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\r5do5vt6iw-2z0ns9nrw6.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\65ig2zck40-muycvpuwrr.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\7rl3dv0olj-87fc7y1x7t.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\u3jl9jzg4w-mlv21k5csn.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\zj91zgxxky-nztq9a1cwx.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\6uz8tqnjff-nztq9a1cwx.gz
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\staticwebassets.build.json
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\staticwebassets.build.json.cache
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\staticwebassets.development.json
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.csproj.Up2Date
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.dll
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\refint\ClinicApp.dll
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.pdb
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.genruntimeconfig.cache
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ref\ClinicApp.dll
+H:\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\6sblmm59w8-qtpnhp82jr.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\appsettings.Development.json
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\appsettings.json
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.staticwebassets.endpoints.json
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.staticwebassets.runtime.json
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.exe
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.deps.json
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.runtimeconfig.json
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.pdb
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Azure.Core.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Azure.Identity.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Humanizer.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\Mono.TextTemplating.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.ClientModel.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.CodeDom.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Composition.Convention.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Composition.Hosting.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Composition.Runtime.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Composition.TypedParts.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Drawing.Common.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Formats.Asn1.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Memory.Data.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Runtime.Caching.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Security.Permissions.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Text.Json.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Windows.Extensions.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.csproj.AssemblyReference.cache
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\rpswa.dswa.cache.json
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.GeneratedMSBuildEditorConfig.editorconfig
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.AssemblyInfoInputs.cache
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.AssemblyInfo.cs
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.csproj.CoreCompileInputs.cache
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.MvcApplicationPartsAssemblyInfo.cache
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.RazorAssemblyInfo.cache
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.RazorAssemblyInfo.cs
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\rjimswa.dswa.cache.json
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\scopedcss\bundle\ClinicApp.styles.css
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\scopedcss\projectbundle\ClinicApp.bundle.scp.css
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\3wtjyo5y5u-b9sayid5wm.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\6sblmm59w8-qtpnhp82jr.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\rm4rc4o2ov-xtxxf3hu2r.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\memjvzeyjg-bqjiyaj88i.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\6yasnohd92-c2jlpeoesf.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\8mq2gayu24-erw9l3u2r3.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\ng3yi6htrp-aexeepp0ev.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\ue31pw9m9i-d7shbmvgxk.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\qzs3a0x5gl-ausgxo2sd3.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\hway20x0gm-k8d9w2qqmf.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\jynz1kh4zr-cosvhxvwiu.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\1irnejgeta-ub07r2b239.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\b419txwcil-fvhpjtyr6v.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\3prgvlzze9-b7pk76d08c.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\cixxwd9v1u-fsbi9cje9m.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\i0edobs37g-rzd6atqjts.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\cxl6jyji7x-ee0r1s7dh0.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\nk9gasq2s7-dxx9fxp4il.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\7dksfmy941-jd9uben2k1.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\j2h9zr65hw-khv3u5hwcm.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\6kg46rso7p-r4e9w2rdcm.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\fpitm04ljn-lcd1t2u6c8.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\h3gjpe0sgf-c2oey78nd0.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\vqeo2bvkcd-tdbxkamptv.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\h52o42dtvx-j5mq2jizvt.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\bx288kgmtg-06098lyss8.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\fd8m4k7q6n-nvvlpmu67g.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\5yxhmgmt18-s35ty4nyc5.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\h86qwicfh5-pj5nd1wqec.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\sbllqv6dhh-46ein0sx1k.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\krtqylujxg-v0zj4ognzu.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\5oe80pouly-37tfw0ft22.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\up2tgbjsqd-hrwsygsryq.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\33zxt9b5k3-pk9g2wxc8p.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\g9qf2c9vyk-ft3s53vfgj.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\y24e3c16n2-6cfz1n2cew.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\i6x6u34779-6pdc2jztkx.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\52deur6xd5-493y06b0oq.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\es8m2yqpt8-iovd86k7lj.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\6uwbfds507-vr1egmr9el.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\2tm3vsjq5n-kbrnm935zg.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\slk5czgkke-jj8uyg4cgr.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\vvu88j9wa8-y7v9cxd14o.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\98nq1yybia-notf2xhcfb.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\x85x6tqcao-h1s4sie4z3.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\dku7dxkcjw-63fj8s7r0e.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\7lyzawu8ju-0j3bgjxly4.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\s7x6si27ui-47otxtyo56.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\i8ydt54e91-4v8eqarkd7.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\xzx7zusowr-356vix0kms.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\mcpc5u4w55-83jwlth58m.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\1d1za0hto4-mrlpezrjn3.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\arnaeovycj-lzl9nlhx6b.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\ieseu9pikz-ag7o75518u.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\iyixs7or94-x0q3zqp4vz.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\9ufnzx5git-0i3buxo5is.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\8gozgvsbko-o1o13a6vjx.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\h2o5scbtkh-ttgo8qnofa.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\r5do5vt6iw-2z0ns9nrw6.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\65ig2zck40-muycvpuwrr.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\7rl3dv0olj-87fc7y1x7t.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\u3jl9jzg4w-mlv21k5csn.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\zj91zgxxky-nztq9a1cwx.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\6uz8tqnjff-nztq9a1cwx.gz
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\staticwebassets.build.json
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\staticwebassets.build.json.cache
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\staticwebassets.development.json
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.csproj.Up2Date
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\refint\ClinicApp.dll
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.pdb
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.genruntimeconfig.cache
+H:\Tests\Cilinc System\Cilinc System\Cilinc System\obj\Debug\net9.0\ref\ClinicApp.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\appsettings.Development.json
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.staticwebassets.endpoints.json
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\appsettings.json
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.staticwebassets.runtime.json
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.exe
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.deps.json
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.runtimeconfig.json
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ClinicApp.pdb
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Azure.Core.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Azure.Identity.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Humanizer.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\System.ClientModel.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\System.CodeDom.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Drawing.Common.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Formats.Asn1.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Memory.Data.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Runtime.Caching.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Security.Permissions.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Text.Json.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\System.Windows.Extensions.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.csproj.AssemblyReference.cache
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.AssemblyInfoInputs.cache
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.AssemblyInfo.cs
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.csproj.CoreCompileInputs.cache
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.RazorAssemblyInfo.cache
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.RazorAssemblyInfo.cs
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\scopedcss\bundle\ClinicApp.styles.css
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\scopedcss\projectbundle\ClinicApp.bundle.scp.css
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\3wtjyo5y5u-b9sayid5wm.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\6sblmm59w8-qtpnhp82jr.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\rm4rc4o2ov-xtxxf3hu2r.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\memjvzeyjg-bqjiyaj88i.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\6yasnohd92-c2jlpeoesf.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\8mq2gayu24-erw9l3u2r3.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\ng3yi6htrp-aexeepp0ev.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\ue31pw9m9i-d7shbmvgxk.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\qzs3a0x5gl-ausgxo2sd3.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\hway20x0gm-k8d9w2qqmf.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\jynz1kh4zr-cosvhxvwiu.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\1irnejgeta-ub07r2b239.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\b419txwcil-fvhpjtyr6v.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\3prgvlzze9-b7pk76d08c.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\cixxwd9v1u-fsbi9cje9m.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\i0edobs37g-rzd6atqjts.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\cxl6jyji7x-ee0r1s7dh0.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\nk9gasq2s7-dxx9fxp4il.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\7dksfmy941-jd9uben2k1.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\j2h9zr65hw-khv3u5hwcm.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\6kg46rso7p-r4e9w2rdcm.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\fpitm04ljn-lcd1t2u6c8.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\h3gjpe0sgf-c2oey78nd0.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\vqeo2bvkcd-tdbxkamptv.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\h52o42dtvx-j5mq2jizvt.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\bx288kgmtg-06098lyss8.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\fd8m4k7q6n-nvvlpmu67g.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\5yxhmgmt18-s35ty4nyc5.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\h86qwicfh5-pj5nd1wqec.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\sbllqv6dhh-46ein0sx1k.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\krtqylujxg-v0zj4ognzu.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\5oe80pouly-37tfw0ft22.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\up2tgbjsqd-hrwsygsryq.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\33zxt9b5k3-pk9g2wxc8p.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\g9qf2c9vyk-ft3s53vfgj.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\y24e3c16n2-6cfz1n2cew.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\i6x6u34779-6pdc2jztkx.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\52deur6xd5-493y06b0oq.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\es8m2yqpt8-iovd86k7lj.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\6uwbfds507-vr1egmr9el.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\2tm3vsjq5n-kbrnm935zg.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\slk5czgkke-jj8uyg4cgr.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\vvu88j9wa8-y7v9cxd14o.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\98nq1yybia-notf2xhcfb.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\x85x6tqcao-h1s4sie4z3.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\dku7dxkcjw-63fj8s7r0e.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\7lyzawu8ju-0j3bgjxly4.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\s7x6si27ui-47otxtyo56.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\i8ydt54e91-4v8eqarkd7.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\xzx7zusowr-356vix0kms.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\mcpc5u4w55-83jwlth58m.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\1d1za0hto4-mrlpezrjn3.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\arnaeovycj-lzl9nlhx6b.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\ieseu9pikz-ag7o75518u.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\iyixs7or94-x0q3zqp4vz.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\9ufnzx5git-0i3buxo5is.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\8gozgvsbko-o1o13a6vjx.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\h2o5scbtkh-ttgo8qnofa.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\r5do5vt6iw-2z0ns9nrw6.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\65ig2zck40-muycvpuwrr.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\7rl3dv0olj-87fc7y1x7t.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\u3jl9jzg4w-mlv21k5csn.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\zj91zgxxky-nztq9a1cwx.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\6uz8tqnjff-nztq9a1cwx.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\staticwebassets.build.json
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\staticwebassets.development.json
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.csproj.Up2Date
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\refint\ClinicApp.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.pdb
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.genruntimeconfig.cache
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\ref\ClinicApp.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\AspNetCoreHero.ToastNotification.Views.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\AspNetCoreHero.ToastNotification.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\ClinicApp.MvcApplicationPartsAssemblyInfo.cs
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\kitxt44sfd-db3tgp313k.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\o0jjhyzspa-cm79lz9ti0.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\wdcg9ucorr-w5t26togf2.gz
+D:\Mohammed\Work\Cilinc System\Cilinc System\obj\Debug\net9.0\compressed\9op22eqad8-cl5rrypo7e.gz

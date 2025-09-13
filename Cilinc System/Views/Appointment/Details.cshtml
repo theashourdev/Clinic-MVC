@@ -1,0 +1,75 @@
+﻿@model Cilinc_System.Models.Appointment
+
+@{
+    ViewData["Title"] = "Appointment Details";
+}
+
+<div class="container mt-5">
+
+    <!-- Header Section -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold text-primary fs-3">
+            <i class="bi bi-calendar-check-fill me-2"></i> Appointment Details
+        </h2>
+    </div>
+
+    <!-- Appointment Card -->
+    <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-header d-flex justify-content-between align-items-center" style="background: linear-gradient(90deg, #0d6efd, #6610f2); color:white;">
+            <span class="fw-semibold fs-5"><i class="bi bi-person-badge-fill me-2"></i> Dr. @Model.Doctor?.Name</span>
+            <span class="badge rounded-pill text-dark fs-6" style="background-color:#ffc107;">@Model.Status.ToString()</span>
+        </div>
+
+        <div class="card-body">
+
+            <!-- Patient Info -->
+            <h5 class="text-secondary mb-3 fw-semibold">
+                <i class="bi bi-person-circle me-2"></i> Patient Information
+            </h5>
+            <div class="row mb-4">
+                <div class="col-md-6 mb-2">
+                    <div class="p-3 border rounded shadow-sm bg-light">
+                        <p class="mb-1"><strong><i class="bi bi-person-fill me-2"></i>Name:</strong> @Model.Patient?.Name</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-2">
+                    <div class="p-3 border rounded shadow-sm bg-light">
+                        <p class="mb-1"><strong><i class="bi bi-telephone-fill me-2"></i>Phone:</strong> @Model.Patient?.Phone</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Appointment Info -->
+            <h5 class="text-secondary mb-3 fw-semibold">
+                <i class="bi bi-info-circle me-2"></i> Appointment Details
+            </h5>
+            <div class="row mb-3">
+                <div class="col-md-6 mb-2">
+                    <div class="p-3 border rounded shadow-sm bg-light">
+                        <p class="mb-1"><strong><i class="bi bi-calendar-date me-2"></i>Date:</strong> @Model.Date.ToString("dddd, dd MMM yyyy")</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-2">
+                    <div class="p-3 border rounded shadow-sm bg-light">
+                        <p class="mb-1"><strong><i class="bi bi-clock me-2"></i>Time:</strong> @Model.StartTime.ToString(@"hh\:mm") - @Model.EndTime.ToString(@"hh\:mm")</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-2">
+                    <div class="p-3 border rounded shadow-sm bg-light">
+                        <p class="mb-1"><strong><i class="bi bi-hospital me-2"></i>Specialty:</strong> @Model.Doctor?.Specialty?.Name</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Actions -->
+        <div class="card-footer bg-light d-flex justify-content-end gap-2">
+            <a asp-action="Index" class="btn btn-secondary btn-sm">
+                <i class="bi bi-arrow-left me-1"></i> Back
+            </a>
+            <a asp-action="Edit" asp-route-id="@Model.AppointmentID" class="btn btn-warning btn-sm">
+                <i class="bi bi-pencil-square me-1"></i> Edit
+            </a>
+        </div>
+    </div>
+</div>

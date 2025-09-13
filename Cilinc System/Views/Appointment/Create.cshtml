@@ -1,0 +1,147 @@
+﻿@model Cilinc_System.Models.Appointment
+
+@{
+    ViewData["Title"] = "Create Appointment";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Create Appointment</h2>
+
+    <form asp-action="Create" method="post">
+        <div class="row">
+            <!-- Patient Info -->
+            <div class="col-md-6">
+                <h5>Patient Information</h5>
+                <div class="mb-3">
+                    <label class="form-label">Patient Name</label>
+                    <input type="text" name="patient.Name" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Phone</label>
+                    <input type="text" name="patient.Phone" class="form-control" required />
+                </div>
+            </div>
+
+            <!-- Appointment Info -->
+            <div class="col-md-6">
+                <h5>Appointment Details</h5>
+
+                <!-- Specialty Dropdown -->
+                <div class="mb-3">
+                    <label class="form-label">Specialty</label>
+                    <select id="SpecialtyId" class="form-select" required>
+                        <option value="">-- Select Specialty --</option>
+                        @foreach (var item in ViewBag.Specialties as IEnumerable<SelectListItem>)
+                        {
+                            var isSelected = (ViewBag.SelectedSpecialtyId != null && item.Value == ViewBag.SelectedSpecialtyId.ToString());
+
+                            if (isSelected)
+                            {
+                                <option value="@item.Value" selected>@item.Text</option>
+                            }
+                            else
+                            {
+                                <option value="@item.Value">@item.Text</option>
+                            }
+                        }
+
+                    </select>
+                </div>
+
+                <!-- Doctor Dropdown -->
+                <div class="mb-3">
+                    <label class="form-label">Doctor</label>
+                    <select id="DoctorId" name="appointment.DoctorID" class="form-select" required>
+                        <option value="">-- Select Doctor --</option>
+                    </select>
+                </div>
+
+                <!-- Date Picker -->
+                <div class="mb-3">
+                    <label class="form-label">Date</label>
+                    <input type="date" id="AppointmentDate" name="appointment.Date" class="form-control" required />
+                    <div id="DateMessage" class="text-danger mt-2"></div>
+                </div>
+
+                <!-- Free Slots Dropdown (AJAX) -->
+                <div class="mb-3">
+                    <label class="form-label">Available Time</label>
+                    <select id="StartTime" name="appointment.StartTime" class="form-select" required>
+                        <option value="">-- Select Time --</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-success mt-3">Save Appointment</button>
+        <a asp-action="Index" class="btn btn-secondary mt-3">Cancel</a>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var selectedSpecialty = '@ViewBag.SelectedSpecialtyId';
+            var selectedDoctor = '@ViewBag.SelectedDoctorId';
+
+            if (selectedSpecialty && selectedDoctor) {
+                $('#SpecialtyId').val(selectedSpecialty).change();
+
+                setTimeout(function () {
+                    $.getJSON('@Url.Action("GetDoctorsBySpecialty")', { specialtyId: selectedSpecialty }, function (data) {
+                        var options = '<option value="">-- Select Doctor --</option>';
+                        $.each(data, function (i, doctor) {
+                            var isSelected = doctor.doctorID == selectedDoctor ? "selected" : "";
+                            options += `<option value="${doctor.doctorID}" ${isSelected}>${doctor.name}</option>`;
+                        });
+                        $('#DoctorId').html(options);
+                    });
+                }, 300);
+            }
+
+            $('#SpecialtyId').change(function () {
+                var specialtyId = $(this).val();
+                $('#DoctorId').html('<option value="">Loading...</option>');
+                $('#StartTime').html('<option value="">-- Select Time --</option>');
+
+                if (specialtyId) {
+                    $.getJSON('@Url.Action("GetDoctorsBySpecialty")', { specialtyId: specialtyId }, function (data) {
+                        var options = '<option value="">-- Select Doctor --</option>';
+                        $.each(data, function (i, doctor) {
+                            options += `<option value="${doctor.doctorID}">${doctor.name}</option>`;
+                        });
+                        $('#DoctorId').html(options);
+                    });
+                } else {
+                    $('#DoctorId').html('<option value="">-- Select Doctor --</option>');
+                }
+            });
+
+            $('#DoctorId, #AppointmentDate').change(function () {
+                var doctorId = $('#DoctorId').val();
+                var date = $('#AppointmentDate').val();
+                $('#StartTime').html('<option value="">Loading...</option>');
+                $('#DateMessage').text("");
+
+                if (doctorId && date) {
+                    $.getJSON('@Url.Action("GetFreeSlots")', { doctorId: doctorId, date: date }, function (data) {
+                        if (data.success) {
+                            var options = '<option value="">-- Select Time --</option>';
+                            $.each(data.slots, function (i, time) {
+                                options += `<option value="${time}">${time}</option>`;
+                            });
+                            $('#StartTime').html(options);
+                        } else {
+                            $('#StartTime').html('<option value="">-- Select Time --</option>');
+                            $('#DateMessage').text(data.message);
+                        }
+                    });
+                } else {
+                    $('#StartTime').html('<option value="">-- Select Time --</option>');
+                    $('#DateMessage').text("");
+                }
+            });
+        });
+    </script>
+}

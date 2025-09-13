@@ -1,0 +1,85 @@
+﻿@model Cilinc_System.Models.ViewModels.CreateSpecialtiesViewModel
+@{
+    ViewData["Title"] = "Add Specialty";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0 rounded-3 overflow-hidden">
+        <div class="row g-0">
+            <div class="col-md-4 bg-light d-flex align-items-center justify-content-center p-4">
+                <img id="sideImage"
+                     src="~/images/specialty-form.png"
+                     alt="Specialty Illustration"
+                     class="img-fluid rounded-3 shadow-sm"
+                     style="max-height: 300px;">
+            </div>
+
+            <div class="col-md-8 p-4">
+                <h3 class="mb-4 text-gradient fw-bold">
+                    <i class="bi bi-journal-plus"></i> Add New Specialty
+                </h3>
+
+                <form asp-action="Create" method="post" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label asp-for="Name" class="form-label fw-bold"></label>
+                        <input asp-for="Name" class="form-control" placeholder="Enter specialty name" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Description" class="form-label fw-bold"></label>
+                        <textarea asp-for="Description" class="form-control" placeholder="Enter description"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="ImageFile" class="form-label fw-bold">Upload Image</label>
+                        <input asp-for="ImageFile"
+                               type="file"
+                               class="form-control"
+                               accept="image/*"
+                               onchange="previewSideImage(event)" />
+                        <span asp-validation-for="ImageFile" class="text-danger"></span>
+                    </div>
+
+                    <!-- Actions -->
+                    <div class="d-flex justify-content-between mt-4">
+                        <a asp-action="Index" class="btn btn-outline-secondary btn-lg">
+                            <i class="bi bi-arrow-left"></i> Back
+                        </a>
+                        <button type="submit" class="btn btn-success btn-lg shadow">
+                            <i class="bi bi-save"></i> Save Specialty
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <style>
+        .text-gradient {
+            background: linear-gradient(90deg, #0d6efd, #198754);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+
+    <script>
+        function previewSideImage(event) {
+            var input = event.target;
+            var reader = new FileReader();
+
+            reader.onload = function () {
+                var img = document.getElementById('sideImage');
+                img.src = reader.result;
+            };
+
+            if (input.files && input.files[0]) {
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
+}

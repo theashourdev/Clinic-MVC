@@ -1,0 +1,117 @@
+﻿@model IEnumerable<Cilinc_System.Models.Doctor>
+
+@{
+    ViewData["Title"] = "Doctors List";
+}
+
+
+@if (Model.Any())
+{
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold">👨‍⚕️ Doctors</h2>
+        <div>
+            <a class="btn btn-success me-2" asp-action="Create">
+                <i class="bi bi-person-plus"></i> Add Doctor
+            </a>
+            <a class="btn btn-info" asp-action="Calendar">
+                <i class="bi bi-calendar-week"></i> Calendar View
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4" id="card-@item.DoctorID">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="text-center bg-light py-3">
+                        <img src="@(string.IsNullOrEmpty(item.ImagePath)
+                                                         ? Url.Content("~/images/doctor-form.png")
+                                                         : Url.Content(item.ImagePath))"
+                     alt="@item.Name"
+                     class="rounded-circle shadow"
+                     style="width: 100px; height: 100px; object-fit: cover;" />
+            </div>
+            <div class="card-body text-center">
+                <h5 class="card-title mb-1 fw-bold">@item.Name</h5>
+                <p class="text-muted mb-1"><i class="bi bi-bookmark-heart"></i> @item.Specialty?.Name</p>
+                <div class="d-flex justify-content-center gap-2 flex-wrap">
+                    <button class="btn btn-sm btn-outline-primary" onclick="showDetails(@item.DoctorID)">
+                        <i class="bi bi-eye"></i> Details
+                    </button>
+
+                    <a asp-controller="Doctor" asp-action="Edit" asp-route-id="@item.DoctorID" class="btn btn-sm btn-outline-warning">
+                        <i class="bi bi-pencil-square"></i> Edit
+                    </a>
+
+                    <button class="btn btn-sm btn-outline-danger" onclick="deleteDoctor(@item.DoctorID)">
+                        <i class="bi bi-trash"></i> Delete
+                    </button>
+
+                    <a asp-controller="Appointment"
+                        asp-action="Create"
+                        asp-route-doctorId="@item.DoctorID"
+                        class="btn btn-sm btn-outline-success">
+                        <i class="bi bi-calendar-plus"></i> Book
+                    </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="text-center my-5">
+        <h4 class="mb-4 text-muted">No doctors found. Start by adding your first doctor!</h4>
+        <a asp-action="Create" class="btn btn-lg btn-success px-4">
+            <i class="bi bi-person-plus"></i> Add Doctor
+        </a>
+    </div>
+}
+
+<!-- Modal -->
+<div class="modal fade" id="detailsModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <button type="button" class="btn-close ms-auto mt-2 me-2" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div id="detailsContainer"></div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function showDetails(id) {
+            $.get('/Doctor/Details/' + id, function (data) {
+                $('#detailsContainer').html(data);
+                $('#detailsModal').modal('show');
+            });
+        }
+
+        function deleteDoctor(id) {
+            Swal.fire({
+                title: 'Are you sure?',
+                text: "This will delete the doctor permanently.",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#d33',
+                cancelButtonColor: '#6c757d',
+                confirmButtonText: 'Yes, delete it!',
+                cancelButtonText: 'Cancel'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    $.post('/Doctor/Delete', { id: id }, function (data) {
+                        if (data.success) {
+                            $('#card-' + id).remove();
+                            Swal.fire('Deleted!', 'Doctor has been removed.', 'success');
+                        } else {
+                            Swal.fire('Error!', data.message, 'error');
+                        }
+                    });
+                }
+            });
+        }
+    </script>
+}

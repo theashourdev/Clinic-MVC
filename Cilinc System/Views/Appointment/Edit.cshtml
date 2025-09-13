@@ -1,0 +1,203 @@
+﻿@model Cilinc_System.Models.Appointment
+@using Cilinc_System.Models.Enums
+
+@{
+    ViewData["Title"] = "Edit Appointment";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Edit Appointment</h2>
+
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="AppointmentID" />
+        <div class="row">
+            <!-- Patient Info -->
+            <div class="col-md-6">
+                <h5>Patient Information</h5>
+                <div class="mb-3">
+                    <label class="form-label">Patient Name</label>
+                    <input asp-for="Patient.Name" class="form-control" required />
+                    <span asp-validation-for="Patient.Name" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Phone</label>
+                    <input asp-for="Patient.Phone" class="form-control" required />
+                    <span asp-validation-for="Patient.Phone" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Appointment Info -->
+            <div class="col-md-6">
+                <h5>Appointment Details</h5>
+
+                <!-- Specialty Dropdown -->
+                <div class="mb-3">
+                    <label class="form-label">Specialty</label>
+                    <select id="SpecialtyId" class="form-select" required>
+                        <option value="">-- Select Specialty --</option>
+                        @foreach (var item in ViewBag.Specialties as IEnumerable<SelectListItem>)
+                        {
+                            var isSelected = (ViewBag.SelectedSpecialtyId != null && item.Value == ViewBag.SelectedSpecialtyId.ToString())
+                            || (Model.Doctor?.SpecialtyID.ToString() == item.Value);
+
+                            if (isSelected)
+                            {
+                                <option value="@item.Value" selected>@item.Text</option>
+                            }
+                            else
+                            {
+                                <option value="@item.Value">@item.Text</option>
+                            }
+                        }
+                    </select>
+                    <span asp-validation-for="Doctor.SpecialtyID" class="text-danger"></span>
+                </div>
+
+                <!-- Doctor Dropdown -->
+                <div class="mb-3">
+                    <label class="form-label">Doctor</label>
+                    <select id="DoctorId" name="DoctorID" class="form-select" required>
+                        <option value="">-- Select Doctor --</option>
+                        @if (ViewBag.Doctors != null)
+                        {
+                            foreach (var doc in ViewBag.Doctors as IEnumerable<SelectListItem>)
+                            {
+                                var isSelected = (ViewBag.SelectedDoctorId != null && doc.Value == ViewBag.SelectedDoctorId.ToString())
+                                || (Model.DoctorID.ToString() == doc.Value);
+
+                                if (isSelected)
+                                {
+                                    <option value="@doc.Value" selected>@doc.Text</option>
+                                }
+                                else
+                                {
+                                    <option value="@doc.Value">@doc.Text</option>
+                                }
+                            }
+                        }
+                    </select>
+                    <span asp-validation-for="DoctorID" class="text-danger"></span>
+                </div>
+
+                <!-- Date Picker -->
+                <div class="mb-3">
+                    <label class="form-label">Date</label>
+                    <input asp-for="Date" type="date" class="form-control" required />
+                    <div id="DateMessage" class="text-danger mt-2"></div>
+                    <span asp-validation-for="Date" class="text-danger"></span>
+                </div>
+
+                <!-- Free Slots Dropdown -->
+                <div class="mb-3">
+                    <label class="form-label">Available Time</label>
+                    <select id="StartTime" name="StartTime" class="form-select" required>
+                        <option value="">-- Select Time --</option>
+                        @if (Model.StartTime != null)
+                        {
+                            <option value="@Model.StartTime.ToString(@"hh\:mm")" selected>@Model.StartTime.ToString(@"hh\:mm")</option>
+                        }
+                    </select>
+                    <span asp-validation-for="StartTime" class="text-danger"></span>
+                </div>
+
+                <!-- Status -->
+                <div class="mb-3">
+                    <label>Status</label>
+                    <select asp-for="Status" class="form-select">
+                        @foreach (var status in Enum.GetValues(typeof(AppointmentStatus)).Cast<AppointmentStatus>())
+                        {
+                            var isSelected = Model.Status == status;
+                            if (isSelected)
+                            {
+                                <option value="@status" selected>@status</option>
+                            }
+                            else
+                            {
+                                <option value="@status">@status</option>
+                            }
+                        }
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-success mt-3">Save Changes</button>
+        <a asp-action="Index" class="btn btn-secondary mt-3">Cancel</a>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            var selectedSpecialty = '@ViewBag.SelectedSpecialtyId';
+            var selectedDoctor = '@ViewBag.SelectedDoctorId';
+            var selectedDate = '@Model.Date.ToString("yyyy-MM-dd")';
+            var selectedTime = '@Model.StartTime.ToString(@"hh\:mm")';
+
+            function loadSlots(doctorId, date, selectedTime) {
+                $('#StartTime').html('<option value="">Loading...</option>');
+                $('#DateMessage').text("");
+
+                if (doctorId && date) {
+                    $.getJSON('@Url.Action("GetFreeSlots")', { doctorId: doctorId, date: date }, function (data) {
+                        if (data.success) {
+                            console.log(data);
+                            var options = '<option value="">-- Select Time --</option>';
+                            $.each(data.slots, function (i, time) {
+                                var selected = selectedTime && time == selectedTime ? "selected" : "";
+                                options += `<option value="${time}" ${selected}>${time}</option>`;
+                            });
+                            $('#StartTime').html(options);
+                        } else {
+                            $('#StartTime').html('<option value="">-- Select Time --</option>');
+                            $('#DateMessage').text(data.message);
+                        }
+                    });
+                } else {
+                    $('#StartTime').html('<option value="">-- Select Time --</option>');
+                    $('#DateMessage').text("");
+                }
+            }
+
+            function loadDoctors(specialtyId, selectedDoctor, selectedDate, selectedTime) {
+                if (!specialtyId) return;
+                $.getJSON('@Url.Action("GetDoctorsBySpecialty")', { specialtyId: specialtyId }, function (data) {
+                    var options = '<option value="">-- Select Doctor --</option>';
+                    $.each(data, function (i, doctor) {
+                        var isSelected = doctor.doctorID == selectedDoctor ? "selected" : "";
+                        options += `<option value="${doctor.doctorID}" ${isSelected}>${doctor.name}</option>`;
+                    });
+                    $('#DoctorId').html(options);
+
+                    // Initial load of slots if doctor & date are set
+                    if (selectedDoctor && selectedDate) {
+                        loadSlots(selectedDoctor, selectedDate, selectedTime);
+                    }
+                });
+            }
+
+            // Initial load if specialty is selected
+            if (selectedSpecialty) {
+                $('#SpecialtyId').val(selectedSpecialty);
+                loadDoctors(selectedSpecialty, selectedDoctor, selectedDate, selectedTime);
+            }
+
+            // When specialty changes
+            $('#SpecialtyId').change(function () {
+                var specialtyId = $(this).val();
+                $('#StartTime').html('<option value="">-- Select Time --</option>');
+                loadDoctors(specialtyId, null, null, null);
+            });
+
+            // When doctor or date changes
+            $('#DoctorId, #Date').change(function () {
+                var doctorId = $('#DoctorId').val();
+                var date = $('#Date').val();
+                loadSlots(doctorId, date, null);
+            });
+        });
+
+    </script>
+}

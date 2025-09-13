@@ -1,0 +1,66 @@
+﻿@model Cilinc_System.Models.Specialties
+@{
+    ViewData["Title"] = "Edit Specialty";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-lg border-0 rounded-3 overflow-hidden">
+        <div class="row g-0">
+            <div class="col-md-3 bg-light d-flex align-items-center justify-content-center p-3">
+                <img id="specialtyImagePreview"
+                     src="@(string.IsNullOrEmpty(Model.ImagePath) ? Url.Content("~/images/specialty-default.png") : Url.Content(Model.ImagePath))"
+                     class="img-fluid rounded-circle shadow-sm"
+                     alt="Specialty Image"
+                     style="max-height: 140px;" />
+            </div>
+
+            <div class="col-md-9 p-4">
+                <h4 class="mb-3 text-warning fw-bold">
+                    <i class="bi bi-pencil-square"></i> Edit Specialty
+                </h4>
+
+                <form asp-action="Edit" method="post" enctype="multipart/form-data">
+                    <input type="hidden" asp-for="Id" />
+                    <div class="mb-3">
+                        <label asp-for="Name" class="form-label fw-bold"></label>
+                        <input asp-for="Name" class="form-control form-control-sm" placeholder="Enter name" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Description" class="form-label fw-bold"></label>
+                        <textarea asp-for="Description" class="form-control" placeholder="Enter description"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Change Image</label>
+                        <input type="file" name="imageFile" class="form-control form-control-sm" accept="image/*" onchange="previewSpecialtyImage(event)" />
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <a asp-action="Index" class="btn btn-outline-secondary btn-sm">
+                            <i class="bi bi-arrow-left"></i> Back
+                        </a>
+                        <button type="submit" class="btn btn-warning btn-sm">
+                            <i class="bi bi-save"></i> Update
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        function previewSpecialtyImage(event) {
+            const reader = new FileReader();
+            reader.onload = function () {
+                document.getElementById('specialtyImagePreview').src = reader.result;
+            };
+            if (event.target.files.length) {
+                reader.readAsDataURL(event.target.files[0]);
+            }
+        }
+    </script>
+}

@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Clinic System</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            color: #444;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #009688;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            color: #fff !important;
+            font-size: 1.3rem;
+        }
+
+        .nav-link {
+            color: #fff !important;
+            font-weight: 500;
+            margin: 0 5px;
+            transition: all 0.3s ease-in-out;
+        }
+
+            .nav-link:hover {
+                color: #ffd740 !important;
+            }
+
+        /* Container Content */
+        .main-container {
+            background: #fff;
+            padding: 25px;
+            margin-top: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            flex: 1;
+        }
+
+        h2, h3, h4 {
+            color: #009688;
+            font-weight: 600;
+        }
+
+        .btn-primary {
+            background-color: #009688;
+            border-color: #009688;
+        }
+
+            .btn-primary:hover {
+                background-color: #00796b;
+                border-color: #00796b;
+            }
+
+        /* Tables */
+        .table thead {
+            background: #009688;
+            color: #fff;
+        }
+
+        .table-hover tbody tr:hover {
+            background: #f1f1f1;
+        }
+
+        /* Footer */
+        footer {
+            background: #004d40;
+            color: #fff;
+            padding: 20px 0;
+            margin-top: auto;
+        }
+
+            footer a {
+                color: #ffd740;
+                text-decoration: none;
+            }
+
+                footer a:hover {
+                    text-decoration: underline;
+                    color: #fff;
+                }
+
+        .logo-img {
+            height: 70px; 
+            width: auto; 
+            object-fit: contain;
+        }
+
+        .navbar {
+            padding-top: 0.25rem;
+            padding-bottom: 0.25rem;
+        }
+
+        .navbar-brand {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        .navbar-nav .nav-link {
+            padding-top: 0.25rem;
+            padding-bottom: 0.25rem;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                    <img class="logo-img" src="~/images/logo.png" alt="Clinic Logo" width="50" />
+                </a>
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Doctor" asp-action="Index"><i class="fa-solid fa-user-doctor"></i> Doctors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Specialties" asp-action="Index"><i class="fa-solid fa-clipboard-list"></i> Specialties</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Appointment" asp-action="Index"><i class="fa-regular fa-calendar-check"></i> Appointments</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Privacy"><i class="fa-solid fa-lock"></i> Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="main-container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; @DateTime.Now.Year - Clinic System | <a asp-controller="Home" asp-action="Privacy">Privacy</a></p>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    @await Component.InvokeAsync("Notyf")
+
+</body>
+</html>

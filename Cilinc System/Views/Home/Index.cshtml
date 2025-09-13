@@ -1,0 +1,154 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Hero Section -->
+<div class="hero-section text-white text-center d-flex align-items-center justify-content-center"
+     style="background: url('/images/clinic-hero.jpg') center/cover no-repeat; height: 70vh; border-radius:12px;">
+    <div>
+        <h1 class="display-3 fw-bold text-dark">Welcome to Clinic System</h1>
+        <h3 class=" text-dark">Your health is our top priority 🌿</h3>
+        <a class="btn btn-lg btn-primary mt-3" asp-controller="Appointment" asp-action="Create">Book an Appointment</a>
+    </div>
+</div>
+
+<!-- About Section -->
+<div class="container my-5">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <img src="https://thumbs.dreamstime.com/b/background-image-reception-area-modern-medical-clinic-chair-aigt-blue-chairs-wooden-counter-lobby-healthcare-321249446.jpg" class="img-fluid rounded shadow" alt="Clinic">
+        </div>
+        <div class="col-md-6">
+            <h2>About Our Clinic</h2>
+            <p>
+                We provide world-class medical care with modern facilities and experienced doctors.
+                Our mission is to ensure your well-being and health with compassion and professionalism.
+            </p>
+            <ul>
+                <li>✔️ Professional Doctors</li>
+                <li>✔️ Modern Equipment</li>
+                <li>✔️ Patient-Centered Care</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Specialties Section -->
+<div class="container my-5 text-center position-relative">
+    <h2 class="mb-4">Our Specialties</h2>
+    <div id="specialtiesCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            @for (int i = 0; i < Model.Specialties.Count; i += 3)
+            {
+                <div class="carousel-item @(i == 0 ? "active" : "")">
+                    <div class="row">
+                        @for (int j = i; j < i + 3 && j < Model.Specialties.Count; j++)
+                        {
+                            var specialty = Model.Specialties[j];
+                            var icon = specialty.Name switch
+                            {
+                                "Cardiology" => "fa-heartbeat",
+                                "Dermatology" => "fa-allergies",
+                                "Pediatrics" => "fa-baby",
+                                "Orthopedics" => "fa-bone",
+                                _ => "fa-stethoscope"
+                            };
+
+                            <div class="col-md-4 mb-4">
+                                <div class="card shadow p-4 h-100">
+                                    <i class="fas @icon fa-3x mb-3" style="color:#004d40;"></i>
+                                    <h5>@specialty.Name</h5>
+                                    <p>@specialty.Description</p>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev custom-arrow" type="button" data-bs-target="#specialtiesCarousel" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="carousel-control-next custom-arrow" type="button" data-bs-target="#specialtiesCarousel" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+</div>
+
+<!-- Doctors Section -->
+<div class="container my-5 position-relative">
+    <h2 class="text-center mb-4">Meet Our Doctors</h2>
+    <div id="doctorsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            @for (int i = 0; i < Model.Doctors.Count; i += 3)
+            {
+                <div class="carousel-item @(i == 0 ? "active" : "")">
+                    <div class="row">
+                        @for (int j = i; j < i + 3 && j < Model.Doctors.Count; j++)
+                        {
+                            var doctor = Model.Doctors[j];
+                            <div class="col-md-4 mb-4">
+                                <div class="card shadow h-100">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">@doctor.Name</h5>
+                                        <p class="card-text">@doctor.Specialty?.Name</p>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev custom-arrow" type="button" data-bs-target="#doctorsCarousel" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="carousel-control-next custom-arrow" type="button" data-bs-target="#doctorsCarousel" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+</div>
+
+<!-- Call to Action -->
+<div class="text-center my-5">
+    <h3>Ready to take care of your health?</h3>
+    <a class="btn btn-lg btn-primary mt-3" asp-controller="Appointment" asp-action="Create">Book Now</a>
+</div>
+
+<!-- Custom Styles -->
+<style>
+    .custom-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 77, 64, 0.9);
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 22px;
+        z-index: 10;
+        transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+        .custom-arrow:hover {
+            background: #004d40;
+            transform: translateY(-50%) scale(1.1);
+        }
+
+    .carousel-control-prev.custom-arrow {
+        left: -60px; /* أبعد السهم عن الكروت */
+    }
+
+    .carousel-control-next.custom-arrow {
+        right: -60px;
+    }
+</style>
