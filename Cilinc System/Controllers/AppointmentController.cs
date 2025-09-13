@@ -29,57 +29,6 @@ namespace Cilinc_System.Controllers
             _notyf = notyf;
         }
 
-        //public IActionResult Index(
-        //    string patientName = "",
-        //    int? doctorId = null,
-        //    AppointmentStatus? status = null,
-        //    DateTime? date = null,
-        //    int page = 1,
-        //    int pageSize = 10)
-        //{
-        //    var appointments = _appointmentService.GetAppointments();
-
-        //    // Filter
-        //    if (!string.IsNullOrEmpty(patientName))
-        //        appointments = appointments.Where(a => a.Patient!.Name!.Contains(patientName, StringComparison.OrdinalIgnoreCase));
-
-        //    if (doctorId.HasValue)
-        //        appointments = appointments.Where(a => a.Doctor!.DoctorID == doctorId.Value);
-
-        //    if (status.HasValue)
-        //        appointments = appointments.Where(a => a.Status == status.Value);
-
-        //    if (date.HasValue)
-        //        appointments = appointments.Where(a => a.Date.Date == date.Value.Date);
-
-        //    // Pagination
-        //    var totalItems = appointments.Count();
-        //    var totalPages = (int)Math.Ceiling(totalItems / (double)pageSize);
-
-        //    var pagedAppointments = appointments
-        //        .Skip((page - 1) * pageSize)
-        //        .Take(pageSize)
-        //        .ToList();
-
-        //    ViewBag.CurrentPage = page;
-        //    ViewBag.TotalPages = totalPages;
-        //    ViewBag.PatientFilter = patientName;
-        //    ViewBag.DoctorFilter = doctorId;
-        //    ViewBag.StatusFilter = status;
-        //    ViewBag.DateFilter = date?.ToString("yyyy-MM-dd");
-
-        //    var doctors = _doctorService.GetAll();
-        //    ViewBag.Doctors = doctors.Select(d => new SelectListItem
-        //    {
-        //        Value = d.DoctorID.ToString(),
-        //        Text = d.Name,
-        //        Selected = d.DoctorID.ToString() == doctorId.ToString()
-        //    }).ToList();
-
-        //    return View(pagedAppointments);
-        //}
-
-
         public IActionResult Index(
             string patientName = "",
             int? doctorId = null,
@@ -149,11 +98,6 @@ namespace Cilinc_System.Controllers
             }).ToList();
             return View(result);
         }
-
-
-
-
-
 
 
         public IActionResult Create(int? doctorId)
