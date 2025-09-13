@@ -42,11 +42,11 @@ builder.Services.AddScoped<IImageManager, ImageManager>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Home/Error");
-    app.UseHsts();
-}
+//if (!app.Environment.IsDevelopment())
+//{
+app.UseExceptionHandler("/Home/Error");
+app.UseHsts();
+//}
 
 
 app.UseHttpsRedirection();
@@ -58,8 +58,14 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.MapGet("/test-exception", () =>
+{
+    throw new Exception("Test exception");
+});
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
 
 app.Run();

@@ -194,7 +194,7 @@ namespace Cilinc_System.Controllers
             var appointments = appointmentsQuery
                 .Select(a => new
                 {
-                    id = a.AppointmentID,
+                    id = IdProtector.EncryptId(a.AppointmentID),
                     title = a.Patient!.Name + " ( DR. " + a.Doctor!.Name + " )",
                     start = a.Date.Add(a.StartTime),
                     end = a.Date.Add(a.EndTime),

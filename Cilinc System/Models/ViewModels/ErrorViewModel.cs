@@ -1,4 +1,4 @@
-namespace Cilinc_System.Models
+namespace Cilinc_System.Models.ViewModels
 {
     public class ErrorViewModel
     {

@@ -10,10 +10,8 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-<div class="container mt-4">
     <h2 class="mb-4">Appointments</h2>
 
-    @* Filters Form *@
     <form method="get" class="row g-3 mb-4 align-items-end">
         <div class="col-md-2">
             <label>Date</label>
@@ -72,6 +70,9 @@
         </div>
     </form>
 
+    @if (Model.Any())
+    {
+<div class="container mt-4">
     <div class="mb-3 d-flex justify-content-between align-items-center">
         <a asp-action="Create" class="btn btn-success">
             <i class="bi bi-plus-circle"></i> New Appointment
@@ -79,8 +80,7 @@
         <input type="text" id="searchInput" class="form-control w-25" placeholder="Quick search...">
     </div>
 
-    @if (Model.Any())
-    {
+
         <table class="table table-bordered table-striped table-hover align-middle">
             <thead class="table-dark">
                 <tr>
@@ -151,6 +151,7 @@
                 }
             </ul>
         </nav>
+    </div>
     }
     else
     {
@@ -161,7 +162,6 @@
             </a>
         </div>
     }
-</div>
 
 @section Scripts {
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

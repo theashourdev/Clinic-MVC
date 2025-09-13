@@ -15,10 +15,12 @@
                 <div class="mb-3">
                     <label class="form-label">Patient Name</label>
                     <input type="text" name="patient.Name" class="form-control" required />
+                    <span asp-validation-for="Patient.Name" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Phone</label>
                     <input type="text" name="patient.Phone" class="form-control" required />
+                    <span asp-validation-for="Patient.Phone" class="text-danger"></span>
                 </div>
             </div>
 
@@ -46,6 +48,8 @@
                         }
 
                     </select>
+                    <span asp-validation-for="Doctor.SpecialtyID" class="text-danger"></span>
+
                 </div>
 
                 <!-- Doctor Dropdown -->
@@ -54,6 +58,8 @@
                     <select id="DoctorId" name="appointment.DoctorID" class="form-select" required>
                         <option value="">-- Select Doctor --</option>
                     </select>
+                    <span asp-validation-for="DoctorID" class="text-danger"></span>
+
                 </div>
 
                 <!-- Date Picker -->
@@ -61,6 +67,8 @@
                     <label class="form-label">Date</label>
                     <input type="date" id="AppointmentDate" name="appointment.Date" class="form-control" required />
                     <div id="DateMessage" class="text-danger mt-2"></div>
+                    <span asp-validation-for="Date" class="text-danger"></span>
+
                 </div>
 
                 <!-- Free Slots Dropdown (AJAX) -->
@@ -69,6 +77,7 @@
                     <select id="StartTime" name="appointment.StartTime" class="form-select" required>
                         <option value="">-- Select Time --</option>
                     </select>
+                    <span asp-validation-for="StartTime" class="text-danger"></span>
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\doctor-form.png
+wwwroot\images\error-page.png
 wwwroot\images\logo.png
 wwwroot\images\specialty-form.png
 wwwroot\js\site.js
@@ -64,10 +65,6 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\images\specialties\d04a4891101148268841210bef1d7337.png
-wwwroot\images\specialties\b3f699426dac422196c9f1e461fd94c9.png
-wwwroot\images\doctors\6ea42acb6af6445f8d72ac65d73498ab.jpg
-wwwroot\images\specialties\7868058559944233ad5d391b62a779fa.png
 D:\Mohammed\Work\Cilinc System\Cilinc System\wwwroot\lib\jquery\LICENSE.txt
 D:\Mohammed\Work\Cilinc System\Cilinc System\wwwroot\lib\jquery\dist\jquery.slim.min.map
 D:\Mohammed\Work\Cilinc System\Cilinc System\wwwroot\lib\jquery\dist\jquery.slim.min.js

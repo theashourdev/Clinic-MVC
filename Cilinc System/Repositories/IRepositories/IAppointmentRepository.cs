@@ -7,8 +7,5 @@ namespace Cilinc_System.Repositories.IRepositories
     {
         Task<List<Appointment>> GetAppointmentsByDoctorAndDateAsync(int doctorId, DateTime date);
         bool HasAppointmentsForDoctor(int doctorId);
-        //void Update(Appointment appointment);
-
     }
-
 }

@@ -31,5 +31,9 @@ namespace Cilinc_System.Controllers
             return View();
         }
 
+        public IActionResult Error()
+        {
+            return View();
+        }
     }
 }

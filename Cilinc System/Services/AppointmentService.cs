@@ -27,6 +27,10 @@ namespace ClinicApp.Services
         // Create new patient + appointment
         public Appointment CreateAppointmentWithPatient(Appointment appointment, Patient patient)
         {
+            var doctor = _doctorRepository.GetOne(d => d.DoctorID == appointment.DoctorID, includes: [d => d.Schedules!]);
+            if (doctor == null)
+                throw new ArgumentException("Doctor not found.");
+
             var existingPatient = _patientRepo
                 .Get(p => p.Phone == patient.Phone)
                 .FirstOrDefault();

@@ -45,11 +45,6 @@ namespace ClinicApp.Models
                 .HasForeignKey(a => a.PatientID)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Default value for Appointment.Status
-            //modelBuilder.Entity<Appointment>()
-            //    .Property(a => a.Status)
-            //    .HasDefaultValueSql("'Booked'");
-
             modelBuilder.Entity<Appointment>()
                 .Property(a => a.Status)
                 .HasConversion<string>()

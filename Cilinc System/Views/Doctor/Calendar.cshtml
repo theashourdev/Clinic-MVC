@@ -1,158 +1,4 @@
-﻿@* @{
-    ViewData["Title"] = "Doctor Calendar";
-}
-
-<link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet" />
-
-<div class="container mt-4">
-    <h2>Doctor Calendar</h2>
-
-    <div class="mb-3">
-        <label class="form-label">Select Doctor</label>
-        <select id="DoctorId" class="form-select">
-            <option value="">-- Select Doctor --</option>
-            @foreach (var doc in ViewBag.Doctors as SelectList)
-            {
-                <option value="@doc.Value">@doc.Text</option>
-            }
-        </select>
-    </div>
-
-    <div id="calendar" class="mt-4"></div>
-</div>
-
-@section Scripts {
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
-
-    <script>
-        var calendar;
-
-        document.addEventListener('DOMContentLoaded', function () {
-            var calendarEl = document.getElementById('calendar');
-
-            calendar = new FullCalendar.Calendar(calendarEl, {
-                initialView: 'dayGridMonth',    
-                height: 650,
-                headerToolbar: {
-                    left: 'prev,next today',
-                    center: 'title',
-                    right: 'dayGridMonth,timeGridWeek,timeGridDay'
-                },
-                events: []
-            });
-
-            calendar.render();
-        });
-
-        $('#DoctorId').change(function () {
-            var doctorId = $(this).val();
-            if (!doctorId) {
-                calendar.removeAllEvents();
-                return;
-            }
-
-            $.getJSON('@Url.Action("GetDoctorAppointments", "Appointment")', { doctorId: doctorId }, function (data) {
-                calendar.removeAllEvents();
-
-                data.forEach(function (evt) {
-                    calendar.addEvent({
-                        title: evt.title,            
-                        start: evt.start,            
-                        end: evt.end,                
-                        color: evt.status === 'Booked' ? 'green' :
-                               evt.status === 'Completed' ? 'blue' :
-                               evt.status === 'Cancelled' ? 'red' : 'gray'
-                    });
-                });
-            });
-        });
-    </script>
-}
- *@
-
-@* @{
-    ViewData["Title"] = "Doctor Calendar";
-}
-
-<link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet" />
-
-<div class="container mt-4">
-    <h2>Doctor Calendar</h2>
-
-    <div class="mb-3">
-        <label class="form-label">Select Doctor</label>
-        <select id="DoctorIds" class="form-select" multiple>
-            @foreach (var doc in ViewBag.Doctors as SelectList)
-            {
-                <option value="@doc.Value">@doc.Text</option>
-            }
-        </select>
-
-    </div>
-
-    <div id="calendar" class="mt-4"></div>
-</div>
-
-@section Scripts {
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
-
-    <script>
-        var calendar;
-
-        document.addEventListener('DOMContentLoaded', function () {
-            var calendarEl = document.getElementById('calendar');
-
-            calendar = new FullCalendar.Calendar(calendarEl, {
-                initialView: 'dayGridMonth',
-                height: 650,
-                headerToolbar: {
-                    left: 'prev,next today',
-                    center: 'title',
-                    right: 'dayGridMonth,timeGridWeek,timeGridDay'
-                },
-                events: [],
-                eventClick: function(info) {
-                    var appointmentId = info.event.id;
-                    if (appointmentId) {
-                        // Redirect to Appointment Details page
-                        window.location.href = '/Appointment/Details/' + appointmentId;
-                    }
-                }
-            });
-
-            calendar.render();
-        });
-
-        $('#DoctorId').change(function () {
-            var doctorId = $(this).val();
-            if (!doctorId) {
-                calendar.removeAllEvents();
-                return;
-            }
-
-            $.getJSON('@Url.Action("GetDoctorAppointments", "Appointment")', { doctorId: doctorId }, function (data) {
-                calendar.removeAllEvents();
-
-                data.forEach(function (evt) {
-                    calendar.addEvent({
-                        id: evt.id,                 
-                        title: evt.title,
-                        start: evt.start,
-                        end: evt.end,
-                        color: evt.status === 'Booked' ? 'green' :
-                               evt.status === 'Completed' ? 'blue' :
-                               evt.status === 'Cancelled' ? 'red' : 'gray'
-                    });
-                });
-            });
-        });
-    </script>
-}
- *@
-
-@{
+﻿@{
     ViewData["Title"] = "Doctor Calendar";
 }
 
@@ -208,14 +54,12 @@
 
             calendar.render();
 
-            // Load all appointments initially
             loadAppointments();
         });
 
         function loadAppointments() {
             var doctorIds = ($('#DoctorIds').val() || []).map(Number);
 
-            // قم بإرسال كل id كـ doctorIds[index]=value
             var params = {};
             doctorIds.forEach((id, idx) => params[`doctorIds[${idx}]`] = id);
 
@@ -236,6 +80,6 @@
         }
 
         // Reload appointments whenever selection changes
-        $('#DoctorIds').on('changed.bs.select', loadAppointments); // Bootstrap Select event
+        $('#DoctorIds').on('changed.bs.select', loadAppointments);
     </script>
 }

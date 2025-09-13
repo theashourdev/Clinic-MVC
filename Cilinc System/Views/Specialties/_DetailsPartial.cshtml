@@ -1,25 +1,11 @@
-﻿@* @model Cilinc_System.Models.Specialties
-
-<div class="modal-body">
-    <h5 class="text-primary">Specialty Details</h5>
-    <dl class="row">
-        <dt class="col-sm-4">Name</dt>
-        <dd class="col-sm-8">@Model.Name</dd>
-
-        <dt class="col-sm-4">Description</dt>
-        <dd class="col-sm-8">@Model.Description</dd>
-    </dl>
-</div>
- *@
-
-@model Cilinc_System.Models.Specialties
+﻿@model Cilinc_System.Models.Specialties
 
 <div class="modal-body">
     <div class="card border-0 shadow-sm rounded-3">
         <div class="row g-0">
             <div class="col-md-4 d-flex align-items-center justify-content-center bg-light">
                 <img src="@(string.IsNullOrEmpty(Model.ImagePath)
-                    ? Url.Content("~/images/specialty-default.png")
+                    ? Url.Content("~/images/specialty-form.png")
                     : Url.Content(Model.ImagePath))"
                      alt="@Model.Name"
                      class="img-fluid rounded-circle shadow-sm"
